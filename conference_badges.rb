@@ -22,6 +22,7 @@ def assign_rooms (speaker)
     rm_assign = "Hello, #{s}! You'll be assigned to room #{i}!"
     room_assignments.push (rm_assign)  
   end
+  room_assignments
 end
 
 def printer (array1)
