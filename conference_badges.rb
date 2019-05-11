@@ -12,6 +12,7 @@ def batch_badge_creator (person)
   talkers.push(speaker)
     #puts speaker
   end
+  talkers
 end
 
 
