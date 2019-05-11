@@ -28,6 +28,7 @@ end
 
 def printer (array1)
   array1.each do |r|
-    puts "Hello, my name is #{r}."
   end
+  batch_badge_creator
+  assign_rooms
 end
