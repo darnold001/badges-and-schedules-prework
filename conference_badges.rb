@@ -17,8 +17,8 @@ end
 
 
 def assign_rooms (speaker)
-  speaker.each do |q|
-    puts "Hello, #{q}! You'll be assigned to room #{}!"
+  speaker.each_with_index do |s, i|
+    puts "Hello, #{s}! You'll be assigned to room #{i}!"
   end
 end
 
