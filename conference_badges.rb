@@ -1,5 +1,5 @@
 # Write your code here.
-presenters = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+#presenters = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker (name)
   return "Hello, my name is #{name}."
@@ -7,8 +7,8 @@ end
 
 def batch_badge_creator (person)
   person.each do |n|
-  puts speaker = "Hello, my name is #{n}."
-  #  puts speaker
+    speaker = "Hello, my name is #{n}."
+    puts speaker
   end
 end
 
