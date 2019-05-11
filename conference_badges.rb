@@ -21,6 +21,6 @@ end
 
 def printer (array1)
   array1.each do |r|
-    puts " "
+    puts "Hello, my name is #{r}."
   end
 end
