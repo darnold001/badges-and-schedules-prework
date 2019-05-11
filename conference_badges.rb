@@ -7,15 +7,15 @@ end
 
 def batch_badge_creator (person)
   person.each do |p|
-    speaker = "Hello, my name is #{p}."
-    puts speaker
+  puts speaker = "Hello, my name is #{p}."
+    #puts speaker
   end
 end
 
 
 def assign_rooms (speaker)
   speaker.each do |q|
-    puts "Hello, #{q}! You'll be assigned to room #{}!"
+    puts "Hello, #{q}! You'll be assigned to room !!#{}!"
   end
 end
 
