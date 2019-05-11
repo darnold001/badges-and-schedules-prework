@@ -25,9 +25,9 @@ def assign_rooms (speaker)
   room_assignments
 end
 
-def printer (attendees, room_assignments)
+def printer (talkers, room_assignments)
   attendees.each do |r|
-  puts batch_badge_creator (attendees)
+  puts batch_badge_creator (talkers)
   puts assign_rooms (room_assignments)
 end
 end
