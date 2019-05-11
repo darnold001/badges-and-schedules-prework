@@ -6,12 +6,18 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (person)
-  person.each do |n|
-    puts "Hello, my name is #{n}."
+  person.each do |p|
+    speaker = "Hello, my name is #{p}."
+    puts speaker
   end
 end
 
 
 def assign_rooms (x)
-  return "Hello, #{x}! You'll be assigned to room #{rooms}!"
+  speaker.each do |q|
+  return "Hello, #{q}! You'll be assigned to room #{}!"
+end
+
+def printer do
+  
 end
