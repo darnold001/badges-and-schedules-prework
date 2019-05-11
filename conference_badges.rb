@@ -15,7 +15,8 @@ end
 
 def assign_rooms (x)
   speaker.each do |q|
-  return "Hello, #{q}! You'll be assigned to room #{}!"
+    puts "Hello, #{q}! You'll be assigned to room #{}!"
+  end
 end
 
 def printer do
