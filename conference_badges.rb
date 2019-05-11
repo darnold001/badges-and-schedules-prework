@@ -8,7 +8,8 @@ end
 def batch_badge_creator (person)
   talkers = []
   person.each do |p|
-  puts speaker = "Hello, my name is #{p}."
+  speaker = "Hello, my name is #{p}."
+  talkers.push(speaker)
     #puts speaker
   end
 end
