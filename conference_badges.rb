@@ -13,7 +13,7 @@ def batch_badge_creator (person)
 end
 
 
-def assign_rooms (x)
+def assign_rooms (speaker)
   speaker.each do |q|
     puts "Hello, #{q}! You'll be assigned to room #{}!"
   end
