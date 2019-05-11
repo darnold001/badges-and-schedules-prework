@@ -19,6 +19,8 @@ def assign_rooms (x)
   end
 end
 
-def printer do
-
+def printer (array1)
+  array1.each do |r|
+    puts " "
+  end
 end
